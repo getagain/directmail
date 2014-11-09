@@ -26,7 +26,7 @@ $mail->addAttachment($var21);         // Add attachments
 $mail->isHTML(true);                                  // Set email format to HTML
  
 $mail->Subject = 'Attachment Delivered';
-$mail->Body    = 'Please find your attachment!'</br></br>.'Message: '.$var23;
+$mail->Body    = 'Please find your attachment!</br></br>.Message: '.$var23;
 $mail->AltBody = 'Thank you';
  
 //Read an HTML message body from an external file, convert referenced images to embedded,
